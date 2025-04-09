@@ -18,3 +18,9 @@ console.log(brr);
 // console.log(brr);
 
 console.log(brr.indexOf(10));
+
+
+const expenses = [500, 1000, 200, 300];
+
+let total=expenses.reduce((acc,curr)=>acc+curr,0)
+console.log(total)
