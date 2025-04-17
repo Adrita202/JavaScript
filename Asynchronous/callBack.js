@@ -7,6 +7,19 @@
 // }
 // one(two);
 
+function grub(name){
+    console.log(`hello, ${name}`)
+}
+
+function greetViswas(greetFn){
+    const name="hfhfgu"
+    greetFn(name)
+}
+greetViswas(grub)
+
+
+
+
 
 let stocks={
     fruits:['strawberry','grapes','banana','apple'],
@@ -59,4 +72,4 @@ let production=()=>{
     },1000);
 };
 
-order(0,production);
+// order(0,production);
